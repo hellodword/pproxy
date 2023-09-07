@@ -8,7 +8,7 @@ init:
 
 .PHONY: run
 run:
-	@$(ENV_PREFIX)python -m pproxy run
+	@$(ENV_PREFIX)python -m pproxy
 
 .PHONY: install
 install:          ## Install the project in dev mode.
