@@ -1,0 +1,13 @@
+{
+	"name": "py",
+	"image": "mcr.microsoft.com/devcontainers/python:3-bullseye",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.makefile-tools"
+			]
+		}
+	},
+	"features": {},
+	"postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
+}
